@@ -8,6 +8,14 @@
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_playbutton</sprite>
+    <sprite>sprites\spr_exitbutton</sprite>
+    <sprite>sprites\spr_optionsbutton</sprite>
+    <sprite>sprites\spr_playbutton_sel</sprite>
+    <sprite>sprites\spr_exitbutton_sel</sprite>
+    <sprite>sprites\spr_optionsbutton_sel</sprite>
+    <sprite>sprites\spr_shadow</sprite>
+    <sprite>sprites\spr_soundbubble</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background1</background>
@@ -16,8 +24,14 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_playbutton</object>
+    <object>objects\obj_exitbutton</object>
+    <object>objects\mousetest</object>
+    <object>objects\obj_shadow</object>
+    <object>objects\obj_soundbubble</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\startmenu_</room>
     <room>rooms\rm_room1</room>
   </rooms>
   <help>
